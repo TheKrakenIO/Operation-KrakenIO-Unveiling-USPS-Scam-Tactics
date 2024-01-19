@@ -1,5 +1,8 @@
 # Operation KrakenIO: Unveiling USPS Scam Tactics
 
+![Alternative text](path_to_image)
+
+
 ## Introduction
 
 Operation KrakenIO is a pivotal project aimed at unmasking the deceptive practices of USPS scams. Our objective is to dissect and expose the intricacies of these scams, providing insights into common file names, keywords, and the typical structure of scam websites. This initiative gives users the knowledge and tools to identify and safeguard themselves against these fraudulent schemes.
