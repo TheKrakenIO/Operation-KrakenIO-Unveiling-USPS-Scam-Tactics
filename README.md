@@ -1,6 +1,6 @@
 # Operation KrakenIO: Unveiling USPS Scam Tactics
 
-![Alternative text](path_to_image)
+![Alternative text](Operation KrakenIO Unveiling USPS Scam Tactics.png)
 
 
 ## Introduction
