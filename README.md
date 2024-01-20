@@ -58,9 +58,6 @@ The scam structure and files are designed to deceive users convincingly. Key cha
 
 Operation KrakenIO is committed to continuously updating this repository with the latest scam tactics and prevention methods. Community contributions in reporting new scam variants and sharing experiences are crucial.
 
-## How to Contribute
-
-// Your contribution guidelines here
 
 ## License
 
