@@ -65,6 +65,6 @@ It is distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - info@krakenio.tech
+KrakenIO - info@krakenio.tech
 
 LinkedIn: [KrakenIo](https://www.linkedin.com/company/kraken-io/)
