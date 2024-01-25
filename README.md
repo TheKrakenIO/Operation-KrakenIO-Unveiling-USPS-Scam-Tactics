@@ -54,6 +54,8 @@ The scam structure and files are designed to deceive users convincingly. Key cha
 - Fake loading screens simulating accurate processing.
 - Deceptive scripts aiming to capture personal and financial information.
 
+For more information: [KrakenIo-Research-USPS](https://krakenio.tech/collections/research/research.html)
+
 ## Our Strategy
 
 Operation KrakenIO is committed to continuously updating this repository with the latest scam tactics and prevention methods. Community contributions in reporting new scam variants and sharing experiences are crucial.
