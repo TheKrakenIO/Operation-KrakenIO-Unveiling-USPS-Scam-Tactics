@@ -61,7 +61,7 @@ For more information: [KrakenIo-Research-USPS](https://krakenio.tech/collections
 Operation KrakenIO is committed to continuously updating this repository with the latest scam tactics and prevention methods. Community contributions in reporting new scam variants and sharing experiences are crucial.
 
 ## Information about the scanner
- > ![UPS scam fuzzer info](https://github.com/TheKrakenIO/Operation-KrakenIO-Unveiling-USPS-Scam-Tactics/blob/main/usps_scam_fuzzer.md)
+ > [UPS scam fuzzer info](https://github.com/TheKrakenIO/Operation-KrakenIO-Unveiling-USPS-Scam-Tactics/blob/main/usps_scam_fuzzer.md)
 
 ## License
 
