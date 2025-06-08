@@ -1,22 +1,22 @@
 # Operation KrakenIO: Unveiling USPS Scam Tactics
 
 
-![Operation-KrakenIO-Unveiling-USPS-Scam-Tactics](https://github.com/TheKrakenIO/Operation-KrakenIO-Unveiling-USPS-Scam-Tactics/assets/149908418/30d34765-68e9-4d2d-bda8-a62bb72237f6)
+![Operation-KrakenIO-Unveiling-USPS-Scam-Tactics]([https://github.com/TheKrakenIO/Operation-KrakenIO-Unveiling-USPS-Scam-Tactics/assets/149908418/30d34765-68e9-4d2d-bda8-a62bb72237f6](https://github.com/TheKrakenIO/Operation-KrakenIO-Unveiling-USPS-Scam-Tactics/blob/main/upskraken.JPG?raw=true))
 
 
 ## Introduction
 
-Operation KrakenIO is a pivotal project aimed at unmasking the deceptive practices of USPS scams. Our objective is to dissect and expose the intricacies of these scams, providing insights into common file names, keywords, and the typical structure of scam websites. This initiative gives users the knowledge and tools to identify and safeguard themselves against these fraudulent schemes.
+Operation KrakenIO is a pivotal project designed to expose the deceptive practices of USPS scams. Our objective is to dissect and expose the intricacies of these scams, providing insights into common file names, keywords, and the typical structure of scam websites. This initiative provides users with the knowledge and tools to identify and protect themselves against these fraudulent schemes.
 
 ## Common Directory Structure in USPS Scams
 
 Scammers frequently use specific files to create a semblance of legitimacy in their scams. Here is an overview of the common file names and their associated roles:
 
-- `cc.php` & `index.php`: Fake landing pages mimicking the USPS interface.
-- `index2.php` & `index4.php`: Pages usually soliciting credit card information.
+- `cc.php` and `index.php`: Fake landing pages that mimic the USPS interface.
+- `index2.php` & `index4.php`: These pages typically solicit credit card information.
 - `index3.php`, `wait1.php`, `wait2.php`, `wait3.php`, `wait4.php`, `wait5.php`: Faux loading screens, creating an illusion of processing user input.
 - `index5.php`: Initial attempts at deceptive scripts or functions, often incomplete, that mimic coding attempts.
-- `Thanks.php,` `thank.php,` `Thank.php`: Pages falsely informing users about updated shipping details before redirecting them to the accurate USPS site.
+- `Thanks.php', `thank.php`, `Thank.php`: Pages that falsely inform users about updated shipping details before redirecting them to the accurate USPS site.
 - `sms.php` & `sms2.php`: Involved in feigning interaction, supposedly to receive input from the victim.
 
 > **Note**: This is not an exhaustive list and can be modified by scammers. Please always be careful.
