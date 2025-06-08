@@ -59,8 +59,11 @@ sms2.php
 
 ## Installation
 1- Clone or download this repository.
+
 2- Install the required Python libraries (see above).
+
 3- Create files_directories.txt with the list of files to fuzz.
+
 4- Ensure playwright browser binaries are installed.
 
 ## Usage
