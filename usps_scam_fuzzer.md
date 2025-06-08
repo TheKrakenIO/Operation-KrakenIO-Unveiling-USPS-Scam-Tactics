@@ -2,11 +2,11 @@
 
 ## Overview
 
-The **USPS Scam Fuzzing Tool** is a Python-based utility developed as part of **Operation KrakenIO**, aimed at unmasking deceptive practices in USPS-related scams. The tool analyzes target websites to identify common scam tactics by fuzzing for specific files and directories, retrieving DNS and WHOIS information, checking for redirections, and performing advanced checks like SSL verification and form detection. It empowers users to detect and safeguard against fraudulent schemes mimicking the United States Postal Service (USPS).
+The **USPS Scam Fuzzing Tool** is a Python-based utility developed as part of **Operation KrakenIO**, designed to expose deceptive practices in USPS-related scams. The tool analyzes target websites to identify common scam tactics by fuzzing for specific files and directories, retrieving DNS and WHOIS information, checking for redirections, and performing advanced checks, such as SSL verification and form detection. It empowers users to detect and safeguard against fraudulent schemes mimicking the United States Postal Service (USPS).
 
 ## Features
 
-- **Directory Fuzzing**: Scans for common scam-related files ( `cc.php`, `index.php`, `thanks.php`) listed in `files_directories.txt`.
+- **Directory Fuzzing**: Scans for standard scam-related files ( `cc.php`, `index.php`, `thanks.php`) listed in `files_directories.txt`.
 - **DNS and WHOIS Lookup**: Retrieves DNS records (A, MX, NS, TXT) and WHOIS data (registrar, registrant, dates) for the target domain.
 - **Redirection Detection**: Identifies HTTP, JavaScript, and DNS-based redirects, displaying the redirection chain and apex domains, with user prompts to proceed with fuzzing.
 - **SSL Verification**: Validates SSL certificates for HTTPS URLs, showing issuer, subject, and expiration details.
@@ -16,7 +16,7 @@ The **USPS Scam Fuzzing Tool** is a Python-based utility developed as part of **
 - **robots.txt Analysis**: Parses `robots.txt` to list disallowed paths that may hide scam pages.
 - **HTTP Header Analysis**: Captures response headers ( `Server`, `X-Powered-By`) to reveal server tech stack.
 - **Form Detection**: Identifies HTML forms in responses, flagging potential phishing pages.
-- **Screenshots**: Captures screenshots of pages with HTTP 200 status, saved to a `screenshots/` directory.
+- **Screenshots**: Captures screenshots of pages with an HTTP 200 status, saving them to a `screenshots/` directory.
 - **Steady Fuzzing**: Adds delays between requests to avoid server blocking.
 - **User-Agent Rotation**: Uses a customizable list of browser-like User-Agents to mimic real traffic.
 - **VPN Reminder**: Prompts users to use a VPN for privacy before scanning.
@@ -58,11 +58,13 @@ sms2.php
 ```
 
 ## Installation
-Clone or download this repository.
-Install the required Python libraries (see above).
-Create files_directories.txt with the list of files to fuzz.
-Ensure playwright browser binaries are installed.
-Usage
+1- Clone or download this repository.
+2- Install the required Python libraries (see above).
+3- Create files_directories.txt with the list of files to fuzz.
+4- Ensure playwright browser binaries are installed.
+
+## Usage
+
 Run the script via the command line, providing the target URL and optional arguments:
 
 ```bash
@@ -77,11 +79,11 @@ python usps_scam_fuzzer.py <target_url> [--delay <seconds>] [--output <filename>
 python usps_scam_fuzzer.py http://suspicious-site.com --delay 0.5 --output results.txt --verbose
 ```
 ## Workflow
-* VPN Reminder: Prompts to use a VPN for privacy (press Enter to continue).
+* VPN Reminder: This prompt reminds you to use a VPN for enhanced privacy (press Enter to continue).
 * Input Validation: Ensures the URL has a scheme (defaults to https:// if missing).
 * SSL Check: Verifies SSL certificate for HTTPS URLs.
 * robots.txt: Lists disallowed paths from robots.txt.
-* Redirect Check: Detects HTTP, JS, or DNS redirects and prompts to fuzz the final URL (or original if no redirects).
+* Redirect Check: Detects HTTP, JS, or DNS redirects and prompts to fuzz the final URL (or the original URL if no redirects are detected).
 * DNS/WHOIS: Displays DNS records and WHOIS data for the apex domain.
 * Fuzzing: Scans for files in files_directories.txt, checking status, size, headers, forms, and capturing screenshots for HTTP 200 responses.
 * Output: Prints results to the console and saves them to the specified file.
