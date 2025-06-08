@@ -74,10 +74,15 @@ Run the script via the command line, providing the target URL and optional argum
 python usps_scam_fuzzer.py <target_url> [--delay <seconds>] [--output <filename>] [--verbose]
 ```
 ## Arguments
-* <target_url>: The URL to scan ( http://suspicious-site.com).
+
+ <target_url>: The URL to scan ( http://suspicious-site .com).
+
 --delay: Delay between requests in seconds (default: 1.0).
+
 --output: Output file for results (default: fuzzing_results.txt).
+
 --verbose: Enable detailed output, including headers and rate limit messages.
+
 ```bash
 python usps_scam_fuzzer.py http://suspicious-site .com --delay 0.5 --output results.txt --verbose
 ```
