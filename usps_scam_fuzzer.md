@@ -16,7 +16,7 @@ The **USPS Scam Fuzzing Tool** is a Python-based utility developed as part of **
 - **robots.txt Analysis**: Parses `robots.txt` to list disallowed paths that may hide scam pages.
 - **HTTP Header Analysis**: Captures response headers ( `Server`, `X-Powered-By`) to reveal server tech stack.
 - **Form Detection**: Identifies HTML forms in responses, flagging potential phishing pages.
-- **Screenshots**: Captures screenshots of pages with an HTTP 200 status, saving them to a `screenshots/` directory.
+- **Screenshots**: Captures screenshots of pages with an HTTP 200 status and saves them to a `screenshots/` directory.
 - **Steady Fuzzing**: Adds delays between requests to avoid server blocking.
 - **User-Agent Rotation**: Uses a customizable list of browser-like User-Agents to mimic real traffic.
 - **VPN Reminder**: Prompts users to use a VPN for privacy before scanning.
@@ -79,7 +79,7 @@ python usps_scam_fuzzer.py <target_url> [--delay <seconds>] [--output <filename>
 --output: Output file for results (default: fuzzing_results.txt).
 --verbose: Enable detailed output, including headers and rate limit messages.
 ```bash
-python usps_scam_fuzzer.py http://suspicious-site.com --delay 0.5 --output results.txt --verbose
+python usps_scam_fuzzer.py http://suspicious-site .com --delay 0.5 --output results.txt --verbose
 ```
 ## Workflow
 * VPN Reminder: This prompt reminds you to use a VPN for enhanced privacy (press Enter to continue).
