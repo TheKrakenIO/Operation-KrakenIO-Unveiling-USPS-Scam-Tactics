@@ -1,7 +1,7 @@
 # Operation KrakenIO: Unveiling USPS Scam Tactics
 
 
-![Operation-KrakenIO-Unveiling-USPS-Scam-Tactics]([https://github.com/TheKrakenIO/Operation-KrakenIO-Unveiling-USPS-Scam-Tactics/assets/149908418/30d34765-68e9-4d2d-bda8-a62bb72237f6](https://github.com/TheKrakenIO/Operation-KrakenIO-Unveiling-USPS-Scam-Tactics/blob/main/upskraken.JPG?raw=true))
+![Operation-KrakenIO-Unveiling-USPS-Scam-Tactics](https://github.com/TheKrakenIO/Operation-KrakenIO-Unveiling-USPS-Scam-Tactics/blob/main/upskraken.JPG?raw=true)
 
 
 ## Introduction
