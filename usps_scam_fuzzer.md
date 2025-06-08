@@ -75,7 +75,7 @@ python usps_scam_fuzzer.py <target_url> [--delay <seconds>] [--output <filename>
 ```
 ## Arguments
 
- <target_url>: The URL to scan ( http://suspicious-site .com).
+ <target_url>: The URL to scan ( http[:]//suspicious-site[.]com).
 
 --delay: Delay between requests in seconds (default: 1.0).
 
